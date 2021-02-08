@@ -102,3 +102,91 @@ elif choice == str(5):
 print('Goodbye', name)
 
 
+"""
+program start 
+
+define function to convert mile to kilometer
+Begin Function
+function mile_to_km (mile)
+    Set Result TO mile * 1.61
+    print Result
+End Function
+
+Begin Function
+function ksh_to_usd (ksh)
+    Set Result TO float(ksh) * 109.80
+    print Result
+End Function
+
+Begin Function
+function cm_to_inches(centimeter)
+    Set Inches TO 0.393701
+    Set Result TO float(centimeter) * inches
+    print Result
+End Function
+
+Begin Function
+function kg_to_lbs(kg)
+    Set Result TO float(kg) * 2.20
+    print Result
+End Function
+
+Begin Function
+function percent_to_letter_grade(percent)
+    Set percent variable
+    if percent >= 80 and percent <= 100:
+        print 'A'
+
+    elif percent >= 70 and percent < 80:
+        print 'B'
+
+    elif percent >= 60 and percent < 70:
+        print 'C'
+
+    elif percent >= 50 and percent < 60:
+        print 'D'
+
+    elif percent >= 20 and percent < 40:
+        print 'E'
+
+    elif percent >= 0 and percent < 20:
+        print 'F'
+
+End Function
+
+
+set name = prompt user for input
+print greetings name
+
+print('Please choose which conversion you would like to perform:\n'
+'1 - Convert miles into kilometers\n'
+'2 - Convert Kenyan shilings into US Dollars\n'
+'3 - Convert percent to letter grade\n'
+'4 - Convert kilograms into pounds(lbs\n'
+'5 - Convert centimeters into inches\n')
+
+set choice = prompt user for a number input
+
+if choice == one:
+    set mile = prompt user for a value to convert
+    function call mile_to_km (mile)
+
+elif choice == two:
+    set ksh = prompt user for a value to convert
+    function call ksh_to_usd (ksh)
+
+elif choice == three:
+    set percent = prompt user for Value
+    function call percent_to_letter_grade(percent)
+
+elif choice == four:
+    set kg = prompt user for value
+    function call kg_to_lbs(kg)
+
+elif choice == five:
+    set centimeter = prompt user for Value
+    function call cm_to_inches(centimeter)
+
+print Goodbye name
+pseudocode for converter program
+"""
