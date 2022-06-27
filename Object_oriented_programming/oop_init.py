@@ -4,7 +4,7 @@ class Person:
         self.name = name
 
     def say_hi(self):
-        print("Hello, my name is", self.name)
+        print("Hello, my name is",self.name)
 
 
 p = Person('Swaroop') # Create an instance p of a class Person
